@@ -18,12 +18,18 @@ public class Clock
     HourHand = Convert.ToDouble(TimeArr[0]);
     MinHand = Convert.ToDouble(TimeArr[1]);
     StartAngle();
+    EndAngle();
   }
 
   public void StartAngle() // does not require return value
   // public int StartAngle() // requires return value
   {
     HourAngle = 0.5 * (60 * HourHand + MinHand);
+  }
+
+  public void EndAngle()
+  {
+    MinAngle = 6 * MinHand;
   }
 
 }
@@ -37,7 +43,8 @@ public class Program
     Clock inputClock = new Clock(input);
     Console.WriteLine(inputClock.HourHand);
     Console.WriteLine(inputClock.HourAngle);
-
+    Console.WriteLine(inputClock.MinHand);
+    Console.WriteLine(inputClock.MinAngle);
   }
 
 }
