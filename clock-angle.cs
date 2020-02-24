@@ -3,20 +3,29 @@ using System.Collections.Generic;
 
 public class Clock
 {
-  // Constructor =====================
   public string InputTime;
   public string[] TimeArr;
-  public int HourHand;
-  public int MinHand;
+  public double HourHand;
+  public double MinHand;
+  public double HourAngle;
+  public double MinAngle;
 
-  // Constructor Method ===============
-  public Clock(string InputTime)
+  // Constructor ======================
+  public Clock(string inputTime)
   {
-    InputTime = InputTime;
-    TimeArr = InputTime.Split(":");
-    HourHand = int.Parse(TimeArr[0]);
-    MinHand = int.Parse(TimeArr[1]);
+    InputTime = inputTime;
+    TimeArr = inputTime.Split(":");
+    HourHand = Convert.ToDouble(TimeArr[0]);
+    MinHand = Convert.ToDouble(TimeArr[1]);
+    StartAngle();
   }
+
+  public void StartAngle() // does not require return value
+  // public int StartAngle() // requires return value
+  {
+    HourAngle = 0.5 * (60 * HourHand + MinHand);
+  }
+
 }
 
 public class Program
@@ -27,6 +36,7 @@ public class Program
     string input = Console.ReadLine();
     Clock inputClock = new Clock(input);
     Console.WriteLine(inputClock.HourHand);
+    Console.WriteLine(inputClock.HourAngle);
 
   }
 
