@@ -1,0 +1,11 @@
+C:\Users\Adela\Desktop\clock-angle\bin\Debug\netcoreapp2.2\clock-angle.deps.json
+C:\Users\Adela\Desktop\clock-angle\bin\Debug\netcoreapp2.2\clock-angle.runtimeconfig.json
+C:\Users\Adela\Desktop\clock-angle\bin\Debug\netcoreapp2.2\clock-angle.runtimeconfig.dev.json
+C:\Users\Adela\Desktop\clock-angle\bin\Debug\netcoreapp2.2\clock-angle.dll
+C:\Users\Adela\Desktop\clock-angle\bin\Debug\netcoreapp2.2\clock-angle.pdb
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.csprojAssemblyReference.cache
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.csproj.CoreCompileInputs.cache
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.AssemblyInfoInputs.cache
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.AssemblyInfo.cs
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.dll
+C:\Users\Adela\Desktop\clock-angle\obj\Debug\netcoreapp2.2\clock-angle.pdb
